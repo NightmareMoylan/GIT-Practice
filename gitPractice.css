@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: yellow;
+}
+
+.titleBox{
+    background-color: rgb(120, 0, 120);
+    text-align: center;
+    color: yellow;
+}
+
+.pageTitle{
+    padding: 5px;
+}
+
+.button{
+    color: rgb(120, 0, 120);
+    background-color: yellow;
+    border-style: solid;
+    border-width: 3px;
+    border-color: orangered;
+    padding: 3px;
+}
+
+.button:hover{
+    background-color: orange;
+    border-color: yellow;
+    color: blue;
+}
+
+#loginButtons{
+    position: relative;
+    float: right;
+    display: flex;
+    margin: 5px;
+    height: 13px;
+}
+
+#or{
+    margin: 5px;
+}
+
+#mainBody{
+    padding: 5px;
+    color: rgb(120, 0, 120);
+}
+
+.box{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(120, 0, 120);
+    color: yellow;
+}
+
+.loginSignUpBox{
+    width: 33.3%;
+    margin-left: 33.3%;
+    margin-top:15px;
+}
