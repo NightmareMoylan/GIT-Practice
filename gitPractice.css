@@ -134,3 +134,11 @@ body{
 #githubPic{
     margin: 20px;
 }
+
+/*ForGIT*/
+
+#gitHelpPic{
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
