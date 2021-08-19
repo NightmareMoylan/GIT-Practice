@@ -59,6 +59,7 @@ body{
     height:auto;
     margin-right: 10px;
     box-sizing: border-box;
+    margin-bottom: 400px;
 }
 
 .sidenav ul{
@@ -114,4 +115,22 @@ body{
     padding: 2px;
     box-sizing: border-box;
     height: 37px;
+}
+
+/*Everything Git*/
+
+#treePic{
+    float: right;
+    margin: 10px;
+}
+
+#gitPics{
+    margin: 20px;
+}
+
+#gitPic{
+    margin: 20px;
+}
+#githubPic{
+    margin: 20px;
 }
