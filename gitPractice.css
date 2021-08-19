@@ -7,10 +7,13 @@ body{
     background-color: yellow;
 }
 
+/* Main stuff*/
+
 .titleBox{
     background-color: rgb(120, 0, 120);
     text-align: center;
     color: yellow;
+    height: 100px;
 }
 
 .pageTitle{
@@ -32,6 +35,50 @@ body{
     color: blue;
 }
 
+.box{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(120, 0, 120);
+    color: yellow;
+}
+
+.sidenav{
+    margin: 0;
+    float:left;
+    width:30%;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-right-color: yellow;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: yellow;
+    height:auto;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.sidenav ul{
+    list-style: none;
+    line-height: 20px;
+    width: 50px;
+    margin-left: 40%;
+}
+
+.sidenav a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.sidenav a:hover{
+    color: orangered;
+}
+
+/*Login/Sign Up Page Stuff*/
+
 #loginButtons{
     position: relative;
     float: right;
@@ -49,19 +96,13 @@ body{
     color: rgb(120, 0, 120);
 }
 
-.box{
-    text-align: center;
-    padding: 10px;
-    margin: 15px;
-    background-color: rgb(120, 0, 120);
-    color: yellow;
-}
-
 .loginSignUpBox{
     width: 33.3%;
     margin-left: 33.3%;
     margin-top:15px;
 }
+
+/*Home Button*/
 
 .homeButton{
     float: left;
